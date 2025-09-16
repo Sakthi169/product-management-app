@@ -51,7 +51,7 @@
   padding: 1.5rem;
 }
 
-/* Form field spacing */
+/* Login */
 .login-container {
   height: 100vh;
 }
@@ -104,11 +104,11 @@
 
 .product-card-image-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .product-card-image {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   width: 100px;
   height: 150px;
   object-fit: contain;
@@ -123,7 +123,7 @@
   display: flex;
   gap: 8px;
   margin-top: 1rem;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .gap-10 {
