@@ -1,0 +1,146 @@
+/* Theme */
+@import "primereact/resources/themes/lara-light-blue/theme.css";
+/* Core styles */
+@import "primereact/resources/primereact.min.css";
+/* Icons */
+@import "primeicons/primeicons.css";
+
+.col {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Margin */
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+/* Padding */
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.p-4 {
+  padding: 1.5rem;
+}
+
+/* Form field spacing */
+.login-container {
+  height: 100vh;
+}
+
+.login-container .p-card{
+  width: 25%;
+}
+
+.login-container .field {
+  margin-bottom: 1rem;
+}
+
+.login-container input,
+.login-container .p-password
+{
+  width: 100%;
+}
+
+.login-container .p-password{
+  display: block;
+}
+
+.product-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+  height: 400px;
+}
+
+.product-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card .p-card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.product-card .p-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.product-card-image {
+  margin: 0 auto;
+  width: 100px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.product-description {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.product-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.pagination-container {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.pagination-container p {
+  width: 65px;
+}
